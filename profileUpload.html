@@ -1,0 +1,67 @@
+<html>
+<body>
+	<head>
+        	
+		<script src="js/croppie.js"></script>
+		<script src="js/croppie.min.js"></script>
+		<link rel="stylesheet" type="css" href="css/croppie.css" />
+		<script src="js/jquery-1.11.3.min.js"></script>
+
+	</head>	
+
+<h3>Profile Picture</h3>
+<div class="profile-pic-container h1">
+        <div class="profile-pic">
+            <input id="profile-picture-data" type="hidden" name="profile-picture-data" value="">					
+                <a href="" data-toggle="modal" data-target="#imageupload">
+                    <div id="profile-picture" class="profile-pic-text" style="background-image:url();">
+                            <img  id="prf">
+</div>
+                </a>
+            </div>
+        </div>
+</div>
+<a href="" data-toggle="modal" data-target="#imageupload" class="btn btn-md btn-default light-icon">Add or Change</a>
+
+<script>
+
+
+
+
+
+
+
+var el = document.getElementById('profile-picture');
+var vanilla = new Croppie(el, {
+    viewport: { width: 150, height: 150,type: 'circle' },
+    boundary: { width: 250, height: 250 },
+	
+	
+	 showZoomer: true,
+    enableResize: true,
+    enableOrientation: true,
+    mouseWheelZoom: 'ctrl',
+	
+  
+   
+});
+vanilla.bind({
+    url: 'profile',
+    orientation: 1
+});
+//on button click
+vanilla.result('blob').then(function(blob) {
+    // do something with cropped blob
+});
+
+
+
+	
+
+	
+</script>
+
+
+
+</body>
+</html>
