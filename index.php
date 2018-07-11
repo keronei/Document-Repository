@@ -46,12 +46,12 @@ require_once"connection.php";
 				<nav class="bp-nav">
 					<!--a class="bp-nav__item bp-icon bp-icon--prev" href="/" data-info=""><span>Previous Blueprint</span></a-->
 					<!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
-					<a class="bp-nav__item bp-icon bp-icon--next" onclick=javascript:fd(); href="viewrepo.php" data-info="Login to the Repo"><span>Login to the Repository</span></a>
+					<a class="bp-nav__item bp-icon bp-icon--next" onclick=javascript:fd(); href="" data-info="Login to the Repo"><span>Login to the Repository</span></a>
 					<!--a class="bp-nav__item bp-icon bp-icon--archive" href="http://tympanus.net/codrops/category/blueprints/" data-info="Blueprints archive"><span>Go to the archive</span></a-->
 				</nav>
 			</div>
 			
-			<script>function fd(){window.alert("Users will have to be authenticated in the final version before proceeding...");}</script>
+			<script>function fd(){window.alert("Oops!,You dont have an active session");}</script>
 			
 			
 		</header>
