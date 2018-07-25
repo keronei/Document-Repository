@@ -42,7 +42,7 @@
 	left: 0;
 	width: 300px;
 	height: calc(100vh - 120px);
-	background: #1c1d22;
+	/*background: #1c1d22;*/
 }
 
 .menu__wrap {
@@ -51,6 +51,9 @@
 	bottom: 0;
 	overflow: hidden;
 	width: 100%;
+	background: #f2f2f2;
+	margin:0 15px 0 15px;
+	border-radius:20px;
 }
 
 .menu__level {
@@ -78,6 +81,7 @@
 .menu__item {
 	display: block;
 	width: calc(100% - 50px);
+	
 }
 
 .menu__link {
@@ -85,7 +89,7 @@
 	position: relative;
 	display: block;
 	padding: 1em 2.5em 1em 1.5em;
-	color: #bdbdbd;
+	color: rgb(31,31,31);
 	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
 }

@@ -17,9 +17,8 @@ require_once"connection.php";
 	<meta name="keywords" content="Kisumu County Inventory Repo" />
 	<meta name="author" content="Codrops" />
 	<link rel="shortcut icon" href="favicon.ico">
-	<!-- food icons -->
-	<link rel="stylesheet" type="text/css" href="css/organicfoodicons.css" />
-	<!-- demo styles -->
+	
+
 	<link rel="stylesheet" type="text/css" href="css/taxed.css" />
 	<!-- menu styles -->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -37,14 +36,14 @@ require_once"connection.php";
 		<header class="bp-header cf">
 			<div class="moh-logo">
 				<div class="moh-icon"><img src="moh" height="100px" width="130px"/></div>
-				<h2 class="moh-heading">MOH</h2>
+			
 			</div>
 			<div class="bp-header__main">
 				<!--span class="bp-header__present">Blueprint <span class="bp-tooltip bp-icon bp-icon--about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span-->
 				<h1 class="bp-header__title">Kisumu County Government Repository</h1>
 					<h2 class="bp-header__">Department of Health</h2>
 				<nav class="bp-nav">
-					<!--a class="bp-nav__item bp-icon bp-icon--prev" href="/" data-info=""><span>Previous Blueprint</span></a-->
+					<a class="bp-nav__item bp-icon bp-icon--prev" href="/" data-info=""><span>Directory Guide</span></a>
 					<!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
 					<a class="bp-nav__item bp-icon bp-icon--next" onclick=javascript:fd(); href="" data-info="Login to the Repo"><span>Login to the Repository</span></a>
 					<!--a class="bp-nav__item bp-icon bp-icon--archive" href="http://tympanus.net/codrops/category/blueprints/" data-info="Blueprints archive"><span>Go to the archive</span></a-->
