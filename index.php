@@ -91,8 +91,8 @@ while ($row = mysqli_fetch_array($query))
 				</ul>
 				<!-- Submenu 1 -->
 				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Docs">
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="55">All Documents</a></li>
-					<li class="menu__item"  role="menuitem"><a  class="menu__link" href="56">Archived Documents</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" >All Documents</a></li>
+				
 				
 				</ul>
 	

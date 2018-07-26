@@ -57,6 +57,7 @@
 		this.menus.forEach(function(menuEl, pos) {
 			var items = menuEl.querySelectorAll('.menu__item');
 			items.forEach(function(itemEl, iPos) {
+				
 				var currentLink = itemEl.querySelector('.menu__link--current');
 				if (currentLink) {
 					// This is the actual menu__level that should have current
